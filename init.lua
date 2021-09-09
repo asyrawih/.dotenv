@@ -1,6 +1,7 @@
 local chad_modules = {
    "options",
    "mappings",
+   "go"
 }
 
 for i = 1, #chad_modules, 1 do
@@ -10,3 +11,5 @@ for i = 1, #chad_modules, 1 do
 end
 
 require("mappings").misc()
+require("go").setup()
+
