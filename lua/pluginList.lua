@@ -18,6 +18,10 @@ return packer.startup(function()
    }
 
    use {
+     "ray-x/go.nvim"
+   }
+
+   use {
       "jdhao/better-escape.vim",
       disable = not plugin_status.better_esc,
       event = "InsertEnter",
